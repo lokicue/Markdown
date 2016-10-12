@@ -12,28 +12,28 @@ In addition to the requirements provided in the solicitation, the FEi team has e
 ##  B.	List of Artifacts Used to Create Prototype
 Our team relied on the following artifacts to create the prototype:
 
-?	Staffing Plan: Greater detail about the team and roles can be found in <LINK to Section III> Section III. Team Structure. 
-?	Sprint Schedule: After an initial planning sprint (Sprint 0), we conducted three one-week sprints. A summary of sprint schedule and activities are included in <LINK RMF Linked Files | Sprint Schedule | Sprint_Schedule. PDF>.
-?	Research and Discovery: We gathered feedback from prospective system users to enhance the prototype. The research and discovery phase is described in greater detail in section <LINK to Section IV> IV. Research and Discovery.
-?	Design Notes/Specifications: We followed Bootstrap design and U.S. Digital Service playbook guidelines. The process is described in greater detail in section <LINK to Section V> V. Design. 
-?	Wireframes: Design notes and Wireframes can be found: <LINK RMF Linked Files | Wireframes >
-?	User Stories and Acceptance Criteria: We expanded the vendor challenge user story to include additional scenarios and for each user story, we developed acceptance criteria. <LINK RMF Linked Files | User Stories | User_Stories.PDF >
-?	Definition of Done: We used a checklist for the definition of done <LINK> RMF Linked Files | Definition of Done Checklist| Definition_of_Done_Checklist.PDF >.
-?	Meeting Notes: In addition to daily meetings, notes from several Design, Development, and User Interview meetings are included in <LINK RMF Linked Files | Meeting Notes>.
-?	Frameworks and Libraries Used: A description of the prototype frameworks and libraries used and why they were employed is located in <LINK Architecture and Frameworks Section>. The prototype framework and libraries are included in GitHub, <LINK to GitHub location>. 
-?	Test Scripts and Cases: Quality Assurance (QA) activities included creating test cases (actors, preconditions, and test steps) as well as test scripts (actions, expected results, and test results in a Pass/Fail format) are shown here, <LINK RMS Linked Files | Test Cases | Test_Cases.xlxs>.
-?	Data Assumptions: We enhanced the vendor challenge dataset by adding columns for data requested by both caseworkers and users interviewed during the research phase. The type of data added was based on what would be feasible to obtain from information provided in a child care license per the Mississippi State Department of Health’s Guide, “How to Get a Child Care License.” Mock data was added for illustration purposes. More detail can be found here <LINK RMF Linked Files | Data Assumptions | Data_Assumptions.PDF >.
+*	**Staffing Plan:** Greater detail about the team and roles can be found in <LINK to Section III> Section III. Team Structure. 
+*	**Sprint Schedule:** After an initial planning sprint (Sprint 0), we conducted three one-week sprints. A summary of sprint schedule and activities are included in <LINK RMF Linked Files | Sprint Schedule | Sprint_Schedule. PDF>.
+*	**Research and Discovery:** We gathered feedback from prospective system users to enhance the prototype. The research and discovery phase is described in greater detail in section <LINK to Section IV> IV. Research and Discovery.
+*	**Design Notes/Specifications:** We followed Bootstrap design and U.S. Digital Service playbook guidelines. The process is described in greater detail in section <LINK to Section V> V. Design. 
+*	**Wireframes:** Design notes and Wireframes can be found: <LINK RMF Linked Files | Wireframes >
+*	**User Stories and Acceptance Criteria:** We expanded the vendor challenge user story to include additional scenarios and for each user story, we developed acceptance criteria. <LINK RMF Linked Files | User Stories | User_Stories.PDF >
+*	**Definition of Done:** We used a checklist for the definition of done <LINK> RMF Linked Files | Definition of Done Checklist| Definition_of_Done_Checklist.PDF >.
+*	**Meeting Notes:** In addition to daily meetings, notes from several Design, Development, and User Interview meetings are included in <LINK RMF Linked Files | Meeting Notes>.
+*	**Frameworks and Libraries Used:** A description of the prototype frameworks and libraries used and why they were employed is located in <LINK Architecture and Frameworks Section>. The prototype framework and libraries are included in GitHub, <LINK to GitHub location>. 
+*	**Test Scripts and Cases:** Quality Assurance (QA) activities included creating test cases (actors, preconditions, and test steps) as well as test scripts (actions, expected results, and test results in a Pass/Fail format) are shown here, <LINK RMS Linked Files | Test Cases | Test_Cases.xlxs>.
+*	**Data Assumptions:** We enhanced the vendor challenge dataset by adding columns for data requested by both caseworkers and users interviewed during the research phase. The type of data added was based on what would be feasible to obtain from information provided in a child care license per the Mississippi State Department of Health’s Guide, “How to Get a Child Care License.” Mock data was added for illustration purposes. More detail can be found here <LINK RMF Linked Files | Data Assumptions | Data_Assumptions.PDF >.
 
 ##  C.	Functional Description of Prototype Components
 Based on our research and the SME interviews that we conducted, the needs and the level of expertise of the two types of prototype users, caseworkers and parents, will vary. 
 
-User Role (Persona) 1 - Parent:
-?	A parent may use the search function only once every year or every few years.
-?	A parent may visit the site not knowing exactly what criteria to use to execute the search, and therefore, will likely want to search using a simple search screen with the most basic criteria (e.g., near their home address’ zip code). The parent, however, should still have advanced search features available to them to search for specific provider offerings, such as the age range of children served using the “Age Served” drop-down. 
+*User Role (Persona) 1 - Parent:*
+*	A parent may use the search function only once every year or every few years.
+*	A parent may visit the site not knowing exactly what criteria to use to execute the search, and therefore, will likely want to search using a simple search screen with the most basic criteria (e.g., near their home address’ zip code). The parent, however, should still have advanced search features available to them to search for specific provider offerings, such as the age range of children served using the “Age Served” drop-down. 
 
-User Role (Persona) 2 - Caseworker:
-?	A caseworker will likely execute the search frequently, helping to place children on a daily basis.
-?	Focused on providing the best placement for a child, the caseworker is likely to use advanced search functionality and the “Search by Distance” feature. For example, the caseworker will use the advanced search options to quickly narrow down providers to place a child that has special behavioral needs using the “Serves Special Behavioral Needs” drop-down. 
+*User Role (Persona) 2 - Caseworker:*
+*	A caseworker will likely execute the search frequently, helping to place children on a daily basis.
+*	Focused on providing the best placement for a child, the caseworker is likely to use advanced search functionality and the “Search by Distance” feature. For example, the caseworker will use the advanced search options to quickly narrow down providers to place a child that has special behavioral needs using the “Serves Special Behavioral Needs” drop-down. 
 
 ### Home Page and Search Results
 The Home Page allows users to search all providers and search by provider name on two different tabs. Within the Search all Providers tab, the user can select the Provider Type, County, Quality Star Rating, City, and enter the Zip Code and then click the “Search” button. On the Search by Provider Name tab, the user can enter the provider name and click the “Search” button to execute the search. 
