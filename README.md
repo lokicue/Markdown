@@ -84,25 +84,26 @@ Our team, which was self-organizing and cross-functional for optimized efficienc
     *	Technical Writer – Claire Reinken 
 
 *	**Visual and Frontend Development Team** 
-o	Technical Architect – James Tan
-o	Visual Designer – Luis Najera
-o	Interaction Designers – Ludwing Najera, Christian Heyd, and John Jilek
-o	Frontend Web Developers – Luis Najera
+    *   Technical Architect – James Tan
+    *   Visual Designer – Luis Najera
+    *   Interaction Designers – Ludwing Najera, Christian Heyd, and John Jilek
+    *   Frontend Web Developers – Luis Najera
 
 *   **Backend Development Team**
-o	Backend Web Developer: Xiang Zhang, Bhavani Reddy, and Terry Boswell 
+    *   Backend Web Developers: Xiang Zhang, Bhavani Reddy, and Terry Boswell 
 
 ##  B.	Roles and Responsibilities 
 The table provided in <LINK | RMF Linked Files | Roles_and_Responsibilities | Roles_and_Responsibilities.PDF> outlines the roles and responsibilities for key positions in the project team. These roles provide the broad leadership in all technical and management disciplines required for this project.
 
 ##  C.	Level of Effort (Proprietary)
-Per the Vendor Challenge Section 4.2.1 instructions, FEi has provided the hourly rate and total number of hours for each labor category proposed to complete the prototype separately in the document, “FEi, MS Section X - Cost Information Submission, RFP No. 3717.PDF”. The total number of hours proposed to complete the prototype is 468.
+Per the Vendor Challenge Section 4.2.1 instructions, FEi has provided the hourly rate and total number of hours for each labor category proposed to complete the prototype separately in the document, *“FEi, MS Section X - Cost Information Submission, RFP No. 3717.PDF”*. The total number of hours proposed to complete the prototype is 468.
 
 #   IV.	Research and Discovery
 ##  A.	Research Methods – User Perspective
 FEi’s research and discovery efforts were designed to better understand the needs of prospective users of the child care provider search portal. Our approach focused on systematic data collection to apply revisions that were incorporated throughout several iterations of the application development process. Throughout the process, we employed methods that were qualitative, including user interviews <LINK RMF Linked Files | Meeting Notes | User_Interviews_Notes.PDF> as well as quantitative, including a user survey <LINK RMF Linked Files | Survey Results | Survery_Results.PDF>, to gain insights into goals, needs, and typical behavior from caseworkers and parents. User stories were created based on FEi’s research and discovery findings that listed the tasks the user was trying to accomplish; for more information see <LINK RMF Linked Files | User Stories | User_Stories.PDF>. 
 
-Caseworker Perspective
+**Caseworker Perspective**
+
 The Requirements Team, including FEi’s PO and Business Analyst, analyzed the needs expressed by caseworkers during the Caseworker Q&A session held as part of this procurement on Friday, September 9, 2016. The recorded call was transcribed, <LINK RMF Linked Files | Research Documents | Mississippi_Caseworker_Q&A_Transcript.PDF>. Our team reviewed the transcription and highlighted themes that emerged throughout the call. Caseworkers expressed particular interest in several features and improvements to the current search portal. Our team’s prototype incorporates the following enhancements:
 1.	Geographic searches/ability to search by radius
 2.	Advanced search capabilities to narrow down providers
@@ -114,14 +115,16 @@ Gary brings over 10 years of experience consulting with child welfare systems an
 
 It is worth noting that the interviews with Gary and Liz did not just consist of discussions about the topic, but rather the team demonstrated a functioning system at that time and obtained valuable feedback that was then translated into additional requirements used to enhance the prototype. Notes, findings, and ideas for enhancement from the interviews can be found in <LINK RMF Linked Files | Meeting Notes | User_Interviews_Notes.PDF>.
 
-Parent Perspective
+**Parent Perspective**
+
 Similarly, our team reached out to a network of parents to test the prototype and gather their perceptions. Of particular relevance, we gained insights from parents familiar with the experience of looking for child care providers. Interviews with parents resulted in useful design feedback for the results filters. The revisions focused on the filters for: 
 1.	Hours of operation
 2.	Days of operation
 
 FEi conducted an interview with Kathleen on October 3, 2016. She is a step-mother and project manager with the Maryland Department of Juvenile Services, where she collaborates with the Maryland Department of Human Resources to share provider resources. She previously researched the child welfare and juvenile justice systems, and advised as to the state provider directory that serves both child serving agencies. Notes from the interview can be found in <LINK RMF Linked Files | Meeting Notes | User_Interviews_Notes.PDF>.
 
-User Survey
+**User Survey**
+
 In addition to the interviews, we fielded a brief online survey to gather usability feedback. The survey can be found: https://www.surveymonkey.com/r/7X2G2CJ.
 
 We distributed the link to FEi employees and encouraged forwarding to extended networks. We also gathered feedback by posting the link on a local parent group in Facebook. The survey contained a link to the prototype and asked the following questions:
