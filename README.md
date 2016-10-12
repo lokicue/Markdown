@@ -27,16 +27,16 @@ Our team relied on the following artifacts to create the prototype:
 ##  C.	Functional Description of Prototype Components
 Based on our research and the SME interviews that we conducted, the needs and the level of expertise of the two types of prototype users, caseworkers and parents, will vary. 
 
-*User Role (Persona) 1 - Parent:*
+1. User Role (Persona) 1 - Parent:
 *	A parent may use the search function only once every year or every few years.
 *	A parent may visit the site not knowing exactly what criteria to use to execute the search, and therefore, will likely want to search using a simple search screen with the most basic criteria (e.g., near their home address’ zip code). The parent, however, should still have advanced search features available to them to search for specific provider offerings, such as the age range of children served using the “Age Served” drop-down. 
 
-*User Role (Persona) 2 - Caseworker:*
+2. User Role (Persona) 2 - Caseworker:
 *	A caseworker will likely execute the search frequently, helping to place children on a daily basis.
 *	Focused on providing the best placement for a child, the caseworker is likely to use advanced search functionality and the “Search by Distance” feature. For example, the caseworker will use the advanced search options to quickly narrow down providers to place a child that has special behavioral needs using the “Serves Special Behavioral Needs” drop-down. 
 
 ### Home Page and Search Results
-The Home Page allows users to search all providers and search by provider name on two different tabs. Within the Search all Providers tab, the user can select the Provider Type, County, Quality Star Rating, City, and enter the Zip Code and then click the “Search” button. On the Search by Provider Name tab, the user can enter the provider name and click the “Search” button to execute the search. 
+The Home Page allows users to search all providers and search by provider name on two different tabs. Within the *Search all Providers* tab, the user can select the Provider Type, County, Quality Star Rating, City, and enter the Zip Code and then click the “Search” button. On the *Search by Provider Name* tab, the user can enter the provider name and click the “Search” button to execute the search. 
 
 A prominent “Advanced Search” button directs the user to additional search criteria options on the left of the page with a directory of all providers displayed on the right of the page. The user can “Search by Distance” within 5 – 50 miles or use the “Advanced Search Options” drop-downs, which include: 
 •	Age Served
@@ -57,9 +57,9 @@ The prototype components are described in detail in Section VII <LINK to VII. Re
 ##  A.	Composition
 During the planning stage – Sprint 0, <LINK RMF Linked Files | Sprint Schedule | Sprint_Schedule. PDF>, we analyzed the RFP requirements and identified the roles and skillsets needed to complete the prototype. We assembled a multi-disciplinary team based on the requirements of the project and Agile methodology, as described below. The team worked as a single unit with daily stand-up meetings, frequent touchpoints, and demos. The overall project team was divided into the following functional teams to seamlessly perform like functions and responsibilities:
 
-1.	Leadership, Product Definition, and Requirements Team – This team consisted of the Product Owner (PO) (Labor Category: Product Manager), Scrum Master (Labor Category: Delivery Manager), Agile Coach, Business Analyst, and Technical Writer. As the leader of the team, the PO was responsible for defining the scope, prioritizing the work items, and ensuring completeness of the work items. The Scrum Master fostered an Agile team environment by demonstrating Scrum tools and techniques. The Delivery Manager facilitated the development process by removing any impediments identified by the team members and asking each member what they completed yesterday and what they will perform today. 
-2.	Visual and Frontend Development Team – This team consisted of the Technical Architect, Visual Designer, Interaction Designers, and Frontend Web Developers, and was responsible for designing the entire user experience, information architecture, journey maps, wireframes, and style guides. This team worked closely with the PO and the rest of the Requirements Team, and the Backend Development Team to ensure working end-to-end functionality that is robust and satisfies the product requirements.
-3.	Backend Development Team – This team consisted of Backend Web Developers that performed database design (including augmenting the sample data provided by the State), created the search functions, and other ancillary functions (e.g., showing provider details), and printing results. This team also worked closely with the Requirements Team and the Visual and Frontend Team to ensure a working end-to-end functionality that is robust and satisfies the product requirements.
+1.	**Leadership, Product Definition, and Requirements Team –** This team consisted of the Product Owner (PO) (Labor Category: Product Manager), Scrum Master (Labor Category: Delivery Manager), Agile Coach, Business Analyst, and Technical Writer. As the leader of the team, the PO was responsible for defining the scope, prioritizing the work items, and ensuring completeness of the work items. The Scrum Master fostered an Agile team environment by demonstrating Scrum tools and techniques. The Delivery Manager facilitated the development process by removing any impediments identified by the team members and asking each member what they completed yesterday and what they will perform today. 
+2.	**Visual and Frontend Development Team –** This team consisted of the Technical Architect, Visual Designer, Interaction Designers, and Frontend Web Developers, and was responsible for designing the entire user experience, information architecture, journey maps, wireframes, and style guides. This team worked closely with the PO and the rest of the Requirements Team, and the Backend Development Team to ensure working end-to-end functionality that is robust and satisfies the product requirements.
+3.	**Backend Development Team –** This team consisted of Backend Web Developers that performed database design (including augmenting the sample data provided by the State), created the search functions, and other ancillary functions (e.g., showing provider details), and printing results. This team also worked closely with the Requirements Team and the Visual and Frontend Team to ensure a working end-to-end functionality that is robust and satisfies the product requirements.
 
 The FEi team collaborated daily, using the Kanban board (see screenshot below), to assess progress and assign work items. The Continuous Integration (CI) process established also helped with team interaction and with team (and work) integration, so that issues would be resolved in a timely manner. 
 
@@ -76,18 +76,20 @@ Our Scrum Master (Agile Coach), James Tan, ensured that the Scrum Team adhered t
 
 Our team, which was self-organizing and cross-functional for optimized efficiency and effectiveness, included the following: 
 
-?	Leadership, Product Definition, and Requirements Team
-o	Product Owner (Product Manager) – Hatem Ghafir
-o	Agile Coach – James Tan 
-o	Delivery Manager (Scrum Master) – Lisa Lin-Freeman 
-o	Business Analyst – Chris Gordon
-o	Technical Writer – Claire Reinken 
-?	Visual and Frontend Development Team 
+*	**Leadership, Product Definition, and Requirements Team**
+    *	Product Owner (Product Manager) – Hatem Ghafir
+    *	Agile Coach – James Tan 
+    *	Delivery Manager (Scrum Master) – Lisa Lin-Freeman 
+    *	Business Analyst – Chris Gordon
+    *	Technical Writer – Claire Reinken 
+
+*	**Visual and Frontend Development Team** 
 o	Technical Architect – James Tan
 o	Visual Designer – Luis Najera
 o	Interaction Designers – Ludwing Najera, Christian Heyd, and John Jilek
 o	Frontend Web Developers – Luis Najera
-?	Backend Development Team
+
+*   **Backend Development Team**
 o	Backend Web Developer: Xiang Zhang, Bhavani Reddy, and Terry Boswell 
 
 ##  B.	Roles and Responsibilities 
