@@ -214,19 +214,23 @@ FEi’s prototype uses modern, open technologies, and we used Agile (Scrum) proces
 *	Bootstrap Framework, see http://getbootstrap.com/2.3.2/components.html, that follows responsive web design with Accessibility out of the box
 *	US Digital Services Playbook
 *	18F Open Source Style Guide
+
 ##  C.	Architecture and Frameworks
 Based on the initial research, we decided to follow our practice to use Model-View-Controller (MVC) architecture, with Model-View-Model-View (MVVM) in the front-end. The frameworks we used in this project are:
 •	Front-End/Presentation Layer: HTML5/JS/Bootstrap. This is a very widely-used framework that is consistent with the US Style Guide. Bootstrap offers many advantages, such as responsiveness, customization support, consistency, and speed of development.
 •	Front-End/Service Layer: AngularJS. This framework offers very strong support for MVMV, and it integrates very well with the Bootstrap framework. AngularJS is very widely used and offers many advantages, such as providing structure for JavaScript, templating support, and modular development.
+
 ##  D.	Unit Testing
  We used Jasmine to write unit tests for Angular-based Applications with Bootstrap blocks. Our unit tests can be found in <LINK RMF Linked Files | Test Cases | Test_Cases.xlxs>.
 The screenshot below shows Unit Test Runner results (failure).
 IMAGE
+
 ##  E.	Deployment
 Continuous Integration (CI) for Live Demo Site
 MS Azure provides simple CI that can deploy a project from GitHub to Azure App Service. For facilitate quick builds, we used this capability in Sprints 1 and 2, and then switched to TeamCity, a comprehensive integration build platform that we configured for this prototype, for Sprint 3. The configuration includes plug-ins for the Unit Test Framework used.
 The screenshot below shows the CI process with log details.
 IMAGE
+
 ##  F.	Installation Instructions
 Installing the 'Web Server for Chrome' Chrome Extension
 1.	Open Google Chrome and Navigate to https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb.
@@ -289,9 +293,9 @@ Provider Search
 The Provider Search page presents search criteria on the left and results on the right. Values entered on the home page are transferred automatically to the Provider Search Page. Users can further refine the results by performing searches with additional inputs.
 
 The search panel features three expanding panels:
-•	Search by Provider
-•	Search by Distance
-•	Advanced Search Options
+*	Search by Provider
+*	Search by Distance
+*	Advanced Search Options
 
 Provider Search
 Users can search by provider name, type, location (city or county), and quality star rating.
@@ -304,23 +308,23 @@ Additional Search Options
 Users can find providers with services geared toward specific age groups, genders, special behavioral or medical needs, or whether or not they accept USDA food programs.
 
 Basic Search results are displayed:
-•	Provider Name
-•	Quality star Rating
-•	County
-•	City
-•	State
-•	Zip Code
-•	Phone Number
-•	Provider Type
-•	Age of Children Served
+*	Provider Name
+*	Quality star Rating
+*	County
+*	City
+*	State
+*	Zip Code
+*	Phone Number
+*	Provider Type
+*	Age of Children Served
 
 Additional details about a specific provider may be found using the “Show More” button, which displays:
-•	Days and Hours of operation
-•	Center Capacity
-•	License Type
-•	Genders Served
-•	Services for Children with Special Needs (Medical, Behavioral)
-•	Accepts USDA Food Program
+*	Days and Hours of operation
+*	Center Capacity
+*	License Type
+*	Genders Served
+*	Services for Children with Special Needs (Medical, Behavioral)
+*	Accepts USDA Food Program
 
 Search Results
 Search results are presented in alternating white and gray shading to simplify distinction of individual results. Users can group results in 10, 20, or 30 results per page. Page navigation is at the bottom of the page.
