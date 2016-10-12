@@ -139,50 +139,52 @@ FEi’s user survey findings are summarized in <LINK | RMF Linked Files | Survey_R
 
 ##  C.	Research Methods – System
 We also completed research to tailor the system to Mississippi. For instance, we examined the Mississippi Child Care license, <LINK RMF Linked Files | Research Documents | HOW-TO_GET-A-CHILD-CARE-LICENSE_2.PDF>, application to make assumptions about available data points for the prototype. Based on the application packet, we determined it was feasible to incorporate hours and days of operation into the prototype. 
+
 Similarly, we reviewed the state licensing regulations to identify the target age groups served by centers, <LINK RMF Linked Files | Research Documents | MS_License_Regulations.PDF>. To better understand what the star quality ratings mean, we reviewed the Mississippi Quality Stars Brochure, <LINK RMF Linked Files | Research Documents | MS_Quality_Stars_Bropchure.PDF>
+
 Additionally, to gain a better understanding of the procurement approach, we completed research about 18F, <LINK RMF Linked Files | Research Documents | ISM_Conference_About_18F.PDF> and <LINK RMF Linked Files | Research Documents | MS_Article.PDF>. 
 
 #   V.	Design
-A.	Design Guide
-Understanding Users’ Needs and Human-Centered Design
+##  A.	Design Guide
+### Understanding Users’ Needs and Human-Centered Design
 As mentioned in Section IV <LINK to Section VI. Research and Discovery>, we used the following techniques:
-?	User Interviews: While not in-person, the Q&A recorded webinars with the Mississippi social workers provided our team with an excellent source of information. In addition, we conducted one-on-one sessions with users as an important component of our human-centered design process. By engaging with former caseworkers and parents, we were able to gain more insight into what content to present and how to present it. To gain a better understanding of a parent’s needs, we also conducted an interview with a parent who also has years of experience working in the juvenile services area.
-?	User Survey: In order to also gain quantitative input, we conducted an online survey with parents in our community. With 15 respondents, we gained additional input.
-?	Concept Validation: In all our interviews and our survey, we gave the users access to the functioning system at that time in order to obtain concrete feedback, and not just present sketches that are sometimes difficult to envision with average users. We solicited feedback, and made necessary changes.
+*	*User Interviews:* While not in-person, the Q&A recorded webinars with the Mississippi social workers provided our team with an excellent source of information. In addition, we conducted one-on-one sessions with users as an important component of our human-centered design process. By engaging with former caseworkers and parents, we were able to gain more insight into what content to present and how to present it. To gain a better understanding of a parent’s needs, we also conducted an interview with a parent who also has years of experience working in the juvenile services area.
+*	*User Survey:* In order to also gain quantitative input, we conducted an online survey with parents in our community. With 15 respondents, we gained additional input.
+*	*Concept Validation:* In all our interviews and our survey, we gave the users access to the functioning system at that time in order to obtain concrete feedback, and not just present sketches that are sometimes difficult to envision with average users. We solicited feedback, and made necessary changes.
 
-User Interface (UI) Style Guide – Style Guides were used to facilitate consistency in look and feel, as well as to streamline handoffs between design and development. To maximize efficiency, we kept the style guide simple and functional, and subsequent improvements were made based on meetings between team members. In our implementation, FEi used Bootstrap, a widely-used open source UI framework, because it has a web-based style guide that facilitated our Agile approach. Our Interaction Designer reduced the time to implementation by providing UI components and the Style Guide to meet the needs of our project. 
+**User Interface (UI) Style Guide –** Style Guides were used to facilitate consistency in look and feel, as well as to streamline handoffs between design and development. To maximize efficiency, we kept the style guide simple and functional, and subsequent improvements were made based on meetings between team members. In our implementation, FEi used Bootstrap, a widely-used open source UI framework, because it has a web-based style guide that facilitated our Agile approach. Our Interaction Designer reduced the time to implementation by providing UI components and the Style Guide to meet the needs of our project. 
 For more information on bootstrap style guides, see http://getbootstrap.com/2.3.2/components.html. 
 
-US Digital Services Playbook
+### US Digital Services Playbook
 We also followed the principles outlined in the US Digital Services Playbook. A summary of our adoption by play can be found here, <LINK RMF Linked Files | Digital Services Play Checklist | Digital_Services_Play_Checklist.PDF>. 
 
 ##  B.	Accessibility Best Practices
 
 Section 508 of the Rehabilitation Act of 1973, as amended (29 U.S.C. § 794 (d)) provides accessibility guidelines for the development, procurement, maintenance, or use of Electronic and Information Technology (EIT). The amendment mandates that federal agencies must give disabled employees and members of the public access to information that is comparable to access available to others (Section 508 Law and Related Laws and Policies. (n.d.). Retrieved from https://www.section508.gov/content/learn/laws-and-policies). Based on Section 508 accessibility requirements, the U.S. Access Board established standards and guidelines as to how all federal agencies can ensure Section 508 compliance for web-based applications and information, software applications, operating systems, computers, telecommunication, multimedia products, documentation, and more. At FEi, Section 508 compliance is not an afterthought, and our team advocates for users with disabilities at every stage. When validating applications and documentation for Section 508 compliance, we address the concerns of individuals with disabilities by using manual and automated testing techniques to confirm full accessibility and usability.
 To ensure compliance without incurring refactoring costs, our team weaves Section 508 requirements into design, development, and testing at the beginning of every project. FEi also carefully considered the design of the prototype to ensure 508 compliance up to WCAG AA level through utilizing the following guidelines and technology: 
-?	W3C accessibility recommendations
-?	WAI-ARIA (technology that makes advanced web applications accessible and usable to people with disabilities)
-?	Americans with Disabilities Act (ADA) laws and regulations
-?	Web Content Accessibility Guidelines (WCAG) 2.0
-?	Principles of Accessibility: Perceivable, Operable, Understandable, Robust (POUR)
-?	Assistive technology (e.g., screen readers, magnification, assistive listening devices)
-?	Text, graphics, images, menus, breadcrumbs, forms, navigation, buttons, tables, accessibility tags, fonts, plugins, links, scripts, and applets
-?	Code and markup that define page structure and presentation
-?	Evaluation with web accessibility checkers, HTML and WCAG evaluators, and CSS validators
-?	HTML elements (name, role, state, value)
-?	HTML markup that conveys logical hierarchy
-?	HTML tables (data, complex, simple, layout)
-?	Proper header, cell, row, and column associations
-?	Tables constructed to read logically from left to right and top to bottom
-?	Tables containing attributes to define meaning in the absence of context
-?	Layout, color, contrast, and cascading style sheets (CSS), including the disabling of CSS during testing
-?	Form fields (FIELDSET, LEGEND, TABINDEX), radio buttons, checkboxes, labels (with FOR attribute), title attribute, order
-?	Keyboard accessibility
-?	Logical tab order
-?	Accessible links
-?	Forms that can be navigated and completed
-?	Content that is accessible when displayed on hover
-?	Visual focus that moves with keyboard navigation
+*	W3C accessibility recommendations
+*	WAI-ARIA (technology that makes advanced web applications accessible and usable to people with disabilities)
+*	Americans with Disabilities Act (ADA) laws and regulations
+*	Web Content Accessibility Guidelines (WCAG) 2.0
+*	Principles of Accessibility: Perceivable, Operable, Understandable, Robust (POUR)
+*	Assistive technology (e.g., screen readers, magnification, assistive listening devices)
+*	Text, graphics, images, menus, breadcrumbs, forms, navigation, buttons, tables, accessibility tags, fonts, plugins, links, scripts, and applets
+*	Code and markup that define page structure and presentation
+*	Evaluation with web accessibility checkers, HTML and WCAG evaluators, and CSS validators
+*	HTML elements (name, role, state, value)
+*	HTML markup that conveys logical hierarchy
+*	HTML tables (data, complex, simple, layout)
+*	Proper header, cell, row, and column associations
+*	Tables constructed to read logically from left to right and top to bottom
+*	Tables containing attributes to define meaning in the absence of context
+*	Layout, color, contrast, and cascading style sheets (CSS), including the disabling of CSS during testing
+*	Form fields (FIELDSET, LEGEND, TABINDEX), radio buttons, checkboxes, labels (with FOR attribute), title attribute, order
+*	Keyboard accessibility
+    *	Logical tab order
+    *	Accessible links
+    *	Forms that can be navigated and completed
+    *	Content that is accessible when displayed on hover
+    *	Visual focus that moves with keyboard navigation
 
 We tested the prototype using a JAWS 16 screen reader. At the conclusion of Section 508 testing, our team compiled a detailed findings report, detailing a ‘scorecard’ of compliance, see <LINK | RMF Linked Files | Section 508 Compliance | 508_Compliance_Scorecard.PDF>. For each non-compliance issue, we documented our recommendations for remediation, including follow up timelines and testing procedures to verify that compliance problems have been sufficiently resolved. Our team worked closely with development to ensure that the reasons for non-compliance are understood, and we put into place best practices and processes for validating Section 508 compliance early on in the development process. 
 ##  C.	Responsive Design
@@ -201,14 +203,17 @@ For example, the App Service we used as a Web Server provides built-in monitorin
 For the deployment, Azure has built-in support to be integrated with GitHub and provides detailed process monitoring and logs with configured alerts for deployment status at defined issues level.
 
 The prototype can be accessed at http://msmacwis.azurewebsites.net. 
+
 ##  A.	Responsive Web Design
 Our Frontend Web Developers initially created wireframes and screen mockups, see <LINK RMF Linked Files | Wireframes>, and discussed the view of web components and layout in different types of devices. Once the initial wireframes were completed, the team developed the interactive code with selected technologies and framework (Bootstrap and AngularJS), and tested using different types of devices, such as PC, Phones, and Tablets; we also used browser built-in tools to simulate devices. The use of the Bootstrap framework allowed our frontend code to be fully responsive and tested across multiple browsers and device sizes, as well as to support accessibility needs.
+
 The prototype has been tested using the following browsers: Internet Explorer 11, Google Chrome v53.0.2785.143, and Safari. In addition, the use of responsive web design desktop allows web pages to be viewed in response to the size of the device. FEi tested the prototype using the following devices: and operating systems: PC (Windows 7 OS), Surface Pro (Windows 10), iPad Air (iOS9), Samsung Galaxy Tab, and iPhone 6 (iOS9).
+
 ##  B.	Technologies
 FEi’s prototype uses modern, open technologies, and we used Agile (Scrum) processes to manage, design, develop, test, and deploy the prototype. The following standards and guidance are used or referred to in this prototype.
-•	Bootstrap Framework, see http://getbootstrap.com/2.3.2/components.html, that follows responsive web design with Accessibility out of the box
-•	US Digital Services Playbook
-•	18F Open Source Style Guide
+*	Bootstrap Framework, see http://getbootstrap.com/2.3.2/components.html, that follows responsive web design with Accessibility out of the box
+*	US Digital Services Playbook
+*	18F Open Source Style Guide
 ##  C.	Architecture and Frameworks
 Based on the initial research, we decided to follow our practice to use Model-View-Controller (MVC) architecture, with Model-View-Model-View (MVVM) in the front-end. The frameworks we used in this project are:
 •	Front-End/Presentation Layer: HTML5/JS/Bootstrap. This is a very widely-used framework that is consistent with the US Style Guide. Bootstrap offers many advantages, such as responsiveness, customization support, consistency, and speed of development.
