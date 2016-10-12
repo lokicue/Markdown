@@ -28,12 +28,12 @@ Our team relied on the following artifacts to create the prototype:
 Based on our research and the SME interviews that we conducted, the needs and the level of expertise of the two types of prototype users, caseworkers and parents, will vary. 
 
 1. User Role (Persona) 1 - Parent:
-*	A parent may use the search function only once every year or every few years.
-*	A parent may visit the site not knowing exactly what criteria to use to execute the search, and therefore, will likely want to search using a simple search screen with the most basic criteria (e.g., near their home address’ zip code). The parent, however, should still have advanced search features available to them to search for specific provider offerings, such as the age range of children served using the “Age Served” drop-down. 
+  *	A parent may use the search function only once every year or every few years.
+  *	A parent may visit the site not knowing exactly what criteria to use to execute the search, and therefore, will likely want to search using a simple search screen with the most basic criteria (e.g., near their home address’ zip code). The parent, however, should still have advanced search features available to them to search for specific provider offerings, such as the age range of children served using the “Age Served” drop-down. 
 
 2. User Role (Persona) 2 - Caseworker:
-*	A caseworker will likely execute the search frequently, helping to place children on a daily basis.
-*	Focused on providing the best placement for a child, the caseworker is likely to use advanced search functionality and the “Search by Distance” feature. For example, the caseworker will use the advanced search options to quickly narrow down providers to place a child that has special behavioral needs using the “Serves Special Behavioral Needs” drop-down. 
+  *	A caseworker will likely execute the search frequently, helping to place children on a daily basis.
+  *	Focused on providing the best placement for a child, the caseworker is likely to use advanced search functionality and the “Search by Distance” feature. For example, the caseworker will use the advanced search options to quickly narrow down providers to place a child that has special behavioral needs using the “Serves Special Behavioral Needs” drop-down. 
 
 ### Home Page and Search Results
 The Home Page allows users to search all providers and search by provider name on two different tabs. Within the *Search all Providers* tab, the user can select the Provider Type, County, Quality Star Rating, City, and enter the Zip Code and then click the “Search” button. On the *Search by Provider Name* tab, the user can enter the provider name and click the “Search” button to execute the search. 
@@ -217,22 +217,23 @@ FEi’s prototype uses modern, open technologies, and we used Agile (Scrum) proces
 
 ##  C.	Architecture and Frameworks
 Based on the initial research, we decided to follow our practice to use Model-View-Controller (MVC) architecture, with Model-View-Model-View (MVVM) in the front-end. The frameworks we used in this project are:
-•	Front-End/Presentation Layer: HTML5/JS/Bootstrap. This is a very widely-used framework that is consistent with the US Style Guide. Bootstrap offers many advantages, such as responsiveness, customization support, consistency, and speed of development.
-•	Front-End/Service Layer: AngularJS. This framework offers very strong support for MVMV, and it integrates very well with the Bootstrap framework. AngularJS is very widely used and offers many advantages, such as providing structure for JavaScript, templating support, and modular development.
+*	*Front-End/Presentation Layer: HTML5/JS/Bootstrap.* This is a very widely-used framework that is consistent with the US Style Guide. Bootstrap offers many advantages, such as responsiveness, customization support, consistency, and speed of development.
+*	*Front-End/Service Layer: AngularJS.* This framework offers very strong support for MVMV, and it integrates very well with the Bootstrap framework. AngularJS is very widely used and offers many advantages, such as providing structure for JavaScript, templating support, and modular development.
 
 ##  D.	Unit Testing
- We used Jasmine to write unit tests for Angular-based Applications with Bootstrap blocks. Our unit tests can be found in <LINK RMF Linked Files | Test Cases | Test_Cases.xlxs>.
+ We used Jasmine [Link] to write unit tests for Angular-based Applications with Bootstrap blocks. Our unit tests can be found in <LINK RMF Linked Files | Test Cases | Test_Cases.xlxs>.
 The screenshot below shows Unit Test Runner results (failure).
 IMAGE
 
 ##  E.	Deployment
-Continuous Integration (CI) for Live Demo Site
+### Continuous Integration (CI) for Live Demo Site
 MS Azure provides simple CI that can deploy a project from GitHub to Azure App Service. For facilitate quick builds, we used this capability in Sprints 1 and 2, and then switched to TeamCity, a comprehensive integration build platform that we configured for this prototype, for Sprint 3. The configuration includes plug-ins for the Unit Test Framework used.
+
 The screenshot below shows the CI process with log details.
 IMAGE
 
 ##  F.	Installation Instructions
-Installing the 'Web Server for Chrome' Chrome Extension
+**Installing the 'Web Server for Chrome' Chrome Extension**
 1.	Open Google Chrome and Navigate to https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb.
 
 2.	Select '+ Add to Chrome' and select the 'Add app' button from the pop-up.
@@ -244,13 +245,14 @@ IMAGE
 
 3.	The Extension/App should now be installed.
 
-Setup and Run the Prototype Locally
+**Setup and Run the Prototype Locally**
 1.	Download and save the prototype from https://github.com/FEISystems/ms-macwis-prototype/.
+    2.  a.	Extract all files and take note of the directory where the 'ms-macwis-prototype-master' folder was extracted.
  
 
 IMAGE
 
-a.	Extract all files and take note of the directory where the 'ms-macwis-prototype-master' folder was extracted.
+  
 
 2.	Open Chrome Apps 'chrome://apps/' and Run the 'Web Server for Chrome' app. 
 a.	(See Instructions below for installing this Chrome App/Extension).
@@ -265,7 +267,8 @@ IMAGES
 
 5.	Navigate to the site by type 'http://127.0.0.1:8887' in any internet browser.
 
-How to Build and Deploy to Another Environment With Node.Js Supported (Development)
+**How to Build and Deploy to Another Environment With Node.Js Supported (Development)**
+
 This prototype can run on any web server or http server, such as Apache, IIS. For development environment with Node.js, here are the detailed step. You will need
 •	Github account
 •	install Node.js from https://nodejs.org
@@ -275,13 +278,13 @@ cd ms-macwis-prototype
 npm install http-server -g
 http-server ./src/webapp
 If you prefer to run it in apache http server, can also copy all files from src/webapp to the root web folder.
-G.	License
+##  G.	License
 •	Apache 2.0
 
 #   VII.	Release Notes – Version 1.0
 The prototype consists of two pages, the ‘Home Page’ and a ‘Search Results’ page. 
 
-Home Page
+### Home Page
 The Home Page is the landing page that welcomes users. The Home Page provides context and serves as an information hub for users. For illustration, we included state-specific content (links to the Mississippi Department of Health guidance for choosing caregivers and the Mississippi Department of Human Services Early Childhood Care & Development Resources). Other links or information may be used. 
 
 The home page features a toggle search: users may choose to search for a provider by attributes (type, location, quality star rating) or by name. Once a search is performed, the user is taken to the Provider Search page. 
@@ -289,7 +292,7 @@ The home page features a toggle search: users may choose to search for a provide
 Alternatively, and advanced user may choose to go the Provider Search page by clicking on “Advanced
 Search” from the home page.
 
-Provider Search 
+### Provider Search 
 The Provider Search page presents search criteria on the left and results on the right. Values entered on the home page are transferred automatically to the Provider Search Page. Users can further refine the results by performing searches with additional inputs.
 
 The search panel features three expanding panels:
