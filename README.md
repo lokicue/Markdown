@@ -5,6 +5,8 @@
 
 [New Tab2](https://google.com" target="_blank)
 
+[New Tab3](https://google.com)[newtab]
+
 [Google] (http://www.google.com target="_blank")
 
 [Same Tab](https://www.google.com/)
