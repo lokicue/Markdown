@@ -1,4 +1,4 @@
-[New Tab](https://www.google.com/ target="_blank")
+[New Tab](https://www.google.com/target="_blank")
 
 [Same Tab](https://www.google.com/)
 
