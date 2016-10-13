@@ -3,6 +3,8 @@
 
 [New Tab](https://www.google.com/target="_blank")
 
+[Google] (http://www.google.com){target="_blank"}
+
 [Same Tab](https://www.google.com/)
 
 #   I.	Introduction
